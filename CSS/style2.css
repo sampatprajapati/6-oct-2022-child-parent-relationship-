@@ -1,0 +1,82 @@
+.a {
+    width: 400px;
+    height: 400px;
+    transform: rotate(0deg);
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    position: absolute;
+    position: relative;
+    top: 40px;
+    bottom: 20px;
+    right: auto;
+    margin: 200px auto;
+}
+.a:hover {
+    transform: rotate(360deg);
+    transition-property: backgrond-color;
+}
+.r {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+[data-a1="a1"] {
+    background: darkmagenta;
+    top: 0px;
+    right: 0px;
+}
+.a2 {
+    background: dodgerblue;
+    top: 0px;
+    left: 0px;
+}
+.a3 {
+    background: hotpink;
+    bottom: 0px;
+    right: 0px;
+}
+.a4 {
+    background: darkgoldenrod;
+    bottom: 0px;
+    left: 0px;
+}
+.a5 {
+    background: darkslategray;
+    top: 100px;
+    right: 100px;
+}
+.a6 {
+    background: darkgreen;
+    top: 200px;
+    right: 200px;
+}
+#a7 {
+    background: darksalmon;
+    bottom: 200px;
+    right: 300px;
+    left: 100px;
+}
+[data-a8="a8"] {
+    background: indigo;
+    top: 200px;
+    right: 200px;
+    left: 200px;
+}
+.c {
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.p {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.t:hover {
+    background: crimson;
+}
+.v {
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+    margin: 80px auto;
+}
